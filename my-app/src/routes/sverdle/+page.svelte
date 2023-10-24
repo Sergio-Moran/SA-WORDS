@@ -102,6 +102,7 @@
 		};
 	}}
 >
+	<p>Carlos Dubon & Angel Ponce</p>
 	<div class="grid" class:playing={!won} class:bad-guess={form?.badGuess}>
 		{#each Array.from(Array(6).keys()) as row (row)}
 			{@const current = row === i}
